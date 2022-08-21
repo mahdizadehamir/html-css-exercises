@@ -1,0 +1,15 @@
+.container {
+  display: grid;
+  grid-template: repeat(3, 100px) / 30fr 70fr;
+  gap: 20px;
+  grid-template-areas:
+    "header header"
+    "siderbar main"
+    "footer footer";
+}
+.box {
+  background-color: gold;
+}
+.box-one{
+    grid-area:header;
+}
