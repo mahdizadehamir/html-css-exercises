@@ -1,0 +1,27 @@
+/* Embedding Regular font */
+@font-face {
+  font-family: "opensans";
+  src: url("fonts/opensans/opensans-regular-webfont.woff2") format("woff2"),
+    url("fonts/opensans/opensans-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+/* Embedding Bold font */
+@font-face {
+  font-family: "opensans";
+  src: url("fonts/opensans/opensans-bold-webfont.woff2") format("woff2"),
+    url("fonts/opensans/opensans-bold-webfont.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+body {
+  margin: 10px;
+  font-family: "opensans", Helvetica, sans-serif;
+}
+h1 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bold;
+}
+p {
+  font-weight: normal;
+}
