@@ -16,10 +16,11 @@
 }
 body {
   margin: 10px;
-  font-family: "opensans", Helvetica, sans-serif;
+  font-family:"opensans",Arial, Helvetica, sans-serif;
+  font-weight: normal;
 }
 h1 {
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: "opensans",Arial, Helvetica, sans-serif;
   font-weight: bold;
 }
 p {
