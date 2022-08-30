@@ -1,0 +1,67 @@
+body {
+  background-image: url("images/1440back.jpeg");
+  font-family: poppins;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url("../images/320back.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+.container h1 {
+  font-family: "Poppins";
+  font-weight: 900;
+  text-shadow: 3px 3px black;
+  letter-spacing: 0.3rem;
+  word-spacing: 0.5rem;
+  font-size: 2rem;
+  color: white;
+}
+.container h2 {
+  color: rgb(217, 211, 211);
+  background-color: rgba(3, 3, 3, 0.449);
+  display: inline-block;
+  padding: 1rem;
+  font-weight: 300;
+  letter-spacing: 2px;
+  font-size: 1rem;
+}
+@media screen and (min-width: 853px) {
+  .container {
+    background: url("../images/853back.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .container h1 {
+    font-weight: 900;
+    text-shadow: 3px 3px black;
+    letter-spacing: 2px;
+    word-spacing: 1rem;
+    font-size: 3rem;
+    color: white;
+  }
+  .container h2 {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (min-width: 1228px) {
+  .container {
+    background: url("../images//1228back.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  @media screen and (min-width: 1440px) {
+    .container {
+      background: url("../images/1440back.jpeg");
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  }
+}
