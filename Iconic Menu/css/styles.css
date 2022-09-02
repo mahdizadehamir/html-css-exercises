@@ -19,7 +19,7 @@ ul {
   justify-content: flex-start;
   background-color: #2a2138;
   color: rgb(182, 180, 180);
-  height: 100vh;
+  width: 100vw;
   margin: 0;
   padding: 0;
 }
@@ -38,5 +38,6 @@ a:active {
 @media screen and (min-width: 768px) {
   ul {
     width: 20vw;
+    height: 100vh;
   }
 }
