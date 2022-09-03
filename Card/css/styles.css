@@ -9,6 +9,7 @@ html {
 }
 body {
   font-family: 'Inter', sans-serif;
+  font-size: 1.2rem;
 }
 .container {
   margin: 0 1rem;
